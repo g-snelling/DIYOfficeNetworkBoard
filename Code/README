@@ -1,0 +1,16 @@
+/*
+ * Project: Office Network Board (ONB)
+ * Description: An interactable message board to update a message of your choice!
+ * Author: Georgia Snelling, Paul Kollat, and Jack Raney
+ * Date: April 2019
+
+ * Hookup:       Screen:          PHOTON:
+ *  3V3 (red) ---> 3V3       ---> 3V3
+ *  GND (blk) ---- GND       ---- GND
+ *  DIN (blu) ---> MOSI(D11) ---> MOSI(A5)    MOSI = Master Out Slave In
+ *  CLK (ylo) ---> SCLK(D13) ---> SCK (A3)
+ *  CS  (ora) ---> SS  (D10) ---> SS  (A2)
+ *  DC  (grn) ---> OUT (D9)  ---> OUT (A1)
+ *  RST (wht) ---> OUT (D8)  ---> OUT (A0)
+ *  BUSY(pur) <--- IN  (D7)  <--- IN  (D4)
+ */
